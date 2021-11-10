@@ -25,6 +25,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: space-between;
+  top: 0;
 }
 
 .nav li {
@@ -51,10 +52,24 @@ body {
 /*icons*/
 
 .icon {
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 90px;
+  margin-top: 0.3rem;
 }
 
 .icon--primary {
   fill: var(--color-primary);
+}
+
+/*roster*/
+.roster {
+  color: var(--color-primary);
+  margin-top: 9rem;
+  font-size: 3rem;
+}
+
+.roster img {
+  height: 360px;
+  width: 360px;
+  margin-left: 0.7rem;
 }
