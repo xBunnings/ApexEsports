@@ -6,3 +6,50 @@ html {
 * {
   box-sizing: border-box;
 }
+
+.title-main {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.roaster-text {
+  color: White;
+  font-size: 3rem;
+  margin-left: 2rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.players {
+  background: chocolate;
+  height: 5rem;
+  margin: 1rem;
+}
+
+.vid {
+  height: 5rem;
+  background: blue;
+  margin: 1rem;
+}
+
+.socials {
+  color: white;
+}
+
+.linkt {
+  color: white;
+  font-size: 3rem;
+  text-align: right;
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.link:hover {
+  color: gray;
+}
