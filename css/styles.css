@@ -1,0 +1,8 @@
+html {
+  font-size: 62.5%;
+  background: url(../images/bg-wavey.svg);
+}
+
+* {
+  box-sizing: border-box;
+}
