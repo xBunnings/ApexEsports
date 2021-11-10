@@ -7,21 +7,50 @@ html {
   box-sizing: border-box;
 }
 
+.nav {
+  height: 3rem;
+  text-align: right;
+  font-size: 2rem;
+  padding: 0.4rem;
+  word-spacing: 8rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.nav:hover {
+  color: mediumseagreen;
+}
+
 .title-main {
   color: white;
   text-align: center;
   font-size: 3rem;
   font-style: italic;
+  border-radius: 1rem;
   border: 2px solid gray;
   -webkit-box-shadow: 6px 4px 32px 17px rgba(113, 183, 237, 0.47);
   -moz-box-shadow: 6px 4px 32px 17px rgba(113, 183, 237, 0.47);
   box-shadow: 6px 4px 32px 17px rgba(113, 183, 237, 0.47);
 }
 
+h2 {
+  color: lightgrey;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.players {
+  color: whitesmoke;
+  font-size: 3rem;
+  margin: 2rem;
+  font-style: italic;
+}
+
 .roaster-text {
   color: whitesmoke;
   font-size: 3rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-style: italic;
   margin-bottom: 0;
 }
@@ -31,8 +60,8 @@ html {
 }
 
 img {
-  height: 400px;
-  width: 600px;
+  height: auto;
+  width: auto;
 }
 
 .vid {
@@ -44,13 +73,16 @@ img {
 
 .socials {
   color: white;
+  display: flex;
 }
 
 .linkt {
   color: white;
   font-size: 3rem;
-  text-align: right;
+  text-align: center;
   margin-top: 0;
+  border-radius: 1rem;
+  background: mediumseagreen;
 }
 
 .link {
@@ -65,6 +97,7 @@ img {
 .tournament {
   color: white;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .tournament > .roaster-text {
@@ -78,6 +111,7 @@ img {
 }
 
 .schedule,
+tr,
 td,
 th {
   border: 2px solid red;
@@ -87,10 +121,10 @@ th {
   margin: 0;
 }
 
-.socials {
-  font-size: 2.5rem;
-}
-
-h6 {
+.table {
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0;
+  color: white;
   font-size: 3rem;
 }
