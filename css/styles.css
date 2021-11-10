@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -6,8 +14,10 @@ body {
   margin: 0;
 }
 
+/*nav*/
+
 .nav {
-  background: black;
+  background: #333;
   position: fixed;
   color: white;
   width: 100%;
@@ -20,9 +30,7 @@ body {
 .nav li {
   list-style: none;
   margin: 1rem;
-  border-bottom: 1px solid darkgrey;
   float: right;
-  padding-right: 1rem;
 }
 
 .nav p {
@@ -37,4 +45,16 @@ body {
 
 .nav a:hover {
   color: dodgerblue;
+  transition: 0.3s;
+}
+
+/*icons*/
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--primary {
+  fill: var(--color-primary);
 }
