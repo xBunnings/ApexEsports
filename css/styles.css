@@ -23,15 +23,15 @@ html {
 }
 
 .players {
-  background: chocolate;
-  height: 5rem;
   margin: 1rem;
 }
 
+img {
+  height: 400px;
+  width: 600px;
+}
+
 .vid {
-  height: 5rem;
-  background: blue;
-  margin: 1rem;
 }
 
 .socials {
@@ -52,4 +52,28 @@ html {
 
 .link:hover {
   color: gray;
+}
+
+.tournament {
+  color: white;
+  font-size: 3rem;
+}
+
+.tournament > .roaster-text {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.schedule {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule,
+td,
+th {
+  border: 2px solid red;
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: center;
 }
