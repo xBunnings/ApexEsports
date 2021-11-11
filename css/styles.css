@@ -4,6 +4,8 @@
   --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #918ca4;
+  --color-links: lightblue;
+  --color-hover: dodgerblue;
 }
 
 html {
@@ -24,7 +26,7 @@ body {
 .nav {
   background: #333;
   position: fixed;
-  color: white;
+
   width: 100%;
 
   font-size: 1.5rem;
@@ -48,13 +50,13 @@ body {
 }
 
 .nav a {
-  color: white;
+  color: var(--color-links);
   text-decoration: none;
 }
 
 .nav a:hover {
-  color: dodgerblue;
-  transition: 0.3s;
+  color: var(--color-hover);
+  transition: 0.4s;
 }
 
 /*icons*/
@@ -88,7 +90,7 @@ body {
 
 .videos {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 0.8rem;
 }
 
@@ -100,12 +102,46 @@ body {
 
 /*upcoming*/
 
+table {
+  margin-top: 4rem;
+}
+
 table,
 tr,
 td,
 th {
-  border: 1px solid red;
+  border: 1px solid #ccc;
   border-collapse: collapse;
   width: 100vw;
   text-align: center;
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+table a {
+  color: var(--color-links);
+}
+
+table a:hover {
+  color: var(--color-hover);
+  transition: 0.4s;
+}
+
+/*footer*/
+
+.footer {
+  color: var(--color-primary);
+  list-style: square;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--color-links);
+}
+
+.footer a:hover {
+  color: var(--color-hover);
+  transform: 0.4s;
 }
