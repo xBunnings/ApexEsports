@@ -74,7 +74,7 @@ body {
 .roster {
   color: var(--color-primary);
   margin-top: 9rem;
-
+  text-align: center;
   display: flex;
 }
 
