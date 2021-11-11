@@ -108,7 +108,7 @@ body {
 }
 
 .videos video {
-  width: 48vw;
+  width: 98vw;
   height: 45vh;
   margin: 0.2rem;
 }
@@ -187,4 +187,12 @@ table a:hover {
   font-style: italic;
   background: #222;
   border-radius: 0.5rem;
+}
+
+/*Live*/
+
+.live-feed {
+  margin-top: 2rem;
+  margin-left: 0.7rem;
+  margin-bottom: 2rem;
 }
