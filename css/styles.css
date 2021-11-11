@@ -79,7 +79,21 @@ body {
 }
 
 .roster img {
-  margin-left: 0.3rem;
+  margin-left: 0.1rem;
   width: 24vw;
   height: 20vh;
+}
+
+/*videos*/
+
+.videos {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 0.8rem;
+}
+
+.videos video {
+  width: 48vw;
+  height: 45vh;
+  margin: 0.2rem;
 }
