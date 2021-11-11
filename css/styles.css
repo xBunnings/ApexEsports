@@ -183,10 +183,13 @@ table a:hover {
   text-align: center;
   font-size: 2rem;
   border: 1px solid var(--color-body);
-  font-weight: bold;
-  font-style: italic;
+
   background: #222;
   border-radius: 0.5rem;
+}
+
+.meet h3 {
+  margin: 0.8rem;
 }
 
 .section--title {
