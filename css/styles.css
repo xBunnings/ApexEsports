@@ -190,18 +190,22 @@ table a:hover {
 }
 
 .section--title {
-  border: var(--color-body);
+  border: 1px solid var(--color-body);
   border-radius: 0.5rem;
   background: var(--color-background);
   color: var(--color-accent);
   text-align: center;
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
+.section--title h3 {
+  margin: 0.8rem;
+}
 /*Live*/
 
 .live-feed {
-  margin-top: 0rem;
+  margin-top: 1rem;
   margin-left: 0.7rem;
   margin-bottom: 2rem;
 }
