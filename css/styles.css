@@ -21,7 +21,7 @@ body {
   position: fixed;
   color: white;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,8 @@ body {
 
 .nav li {
   list-style: none;
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-top: 2rem;
   float: right;
 }
 
@@ -66,10 +67,10 @@ body {
   color: var(--color-primary);
   margin-top: 9rem;
   font-size: 3rem;
+  display: flex;
 }
 
 .roster img {
-  height: 360px;
-  width: 360px;
   margin-left: 0.7rem;
+  width: 23vw;
 }
