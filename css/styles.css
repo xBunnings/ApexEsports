@@ -6,6 +6,7 @@
   --color-body: #918ca4;
   --color-links: lightblue;
   --color-hover: dodgerblue;
+  --color-background: #222;
 }
 
 html {
@@ -78,12 +79,17 @@ body {
   margin-top: 2rem;
   text-align: center;
   display: flex;
+  border: 1px solid var(--color-body);
+  background: #222;
+  border-radius: 0.5rem;
 }
 
 .roster img {
   margin-left: 0.1rem;
   width: 24vw;
   height: 20vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /*videos*/
@@ -91,7 +97,10 @@ body {
 .videos {
   display: flex;
   margin-top: 2rem;
-  margin-left: 0.8rem;
+  margin-left: 0.1rem;
+  border: 1px solid var(--color-body);
+  background: var(--color-background);
+  border-radius: 0.5rem;
 }
 
 .videos video {
@@ -110,12 +119,14 @@ table,
 tr,
 td,
 th {
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-body);
   border-collapse: collapse;
   width: 100vw;
   text-align: center;
   font-size: 2rem;
   color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 0.5rem;
 }
 
 table a {
@@ -156,4 +167,6 @@ table a:hover {
   border: 1px solid var(--color-body);
   font-weight: bold;
   font-style: italic;
+  background: #222;
+  border-radius: 0.5rem;
 }
