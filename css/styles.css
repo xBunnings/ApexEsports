@@ -73,6 +73,10 @@ body {
   fill: var(--color-primary);
 }
 
+.icond {
+  margin-top: 0rem;
+}
+
 /*roster*/
 .roster {
   color: var(--color-primary);
@@ -143,9 +147,15 @@ table a:hover {
 
 .footer {
   color: var(--color-primary);
-  list-style: square;
   font-size: 3rem;
   margin-top: 3rem;
+  background: var(--color-background);
+  border: 1px solid var(--color-body);
+  border-radius: 0.5rem;
+}
+
+.footer li {
+  list-style: none;
 }
 
 .footer a {
@@ -156,6 +166,14 @@ table a:hover {
 .footer a:hover {
   color: var(--color-hover);
   transform: 0.4s;
+}
+
+.footer img {
+  width: 3rem;
+  fill: var(--color-secondary);
+  margin-right: 1rem;
+  position: relative;
+  top: 0.5rem;
 }
 
 /*section*/
