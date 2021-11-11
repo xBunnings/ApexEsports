@@ -97,3 +97,15 @@ body {
   height: 45vh;
   margin: 0.2rem;
 }
+
+/*upcoming*/
+
+table,
+tr,
+td,
+th {
+  border: 1px solid red;
+  border-collapse: collapse;
+  width: 100vw;
+  text-align: center;
+}
