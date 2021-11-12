@@ -28,27 +28,20 @@ body {
 .nav {
   background: #333;
   position: fixed;
-
-  width: 99%;
-
+  width: 100%;
   font-size: 1.5rem;
   margin: 0;
   display: flex;
   justify-content: space-between;
   top: 0;
+  overflow: hidden;
 }
 
 .nav li {
   list-style: none;
   margin: 0.5rem;
   margin-top: 2rem;
-
   float: right;
-}
-
-.nav p {
-  margin-top: 3rem;
-  margin-left: 1rem;
 }
 
 .nav a {
@@ -87,6 +80,8 @@ body {
   border: 1px solid var(--color-body);
   background: #222;
   border-radius: 0.5rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .roster img {
@@ -128,7 +123,7 @@ th {
   border-collapse: collapse;
   width: 100vw;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--color-primary);
   background: var(--color-background);
   border-radius: 0.5rem;
@@ -148,7 +143,7 @@ table a:hover {
 
 .footer {
   color: var(--color-primary);
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-top: 3rem;
   background: var(--color-background);
   border: 1px solid var(--color-body);
@@ -182,7 +177,7 @@ table a:hover {
   margin-top: 9rem;
   color: var(--color-accent);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: 1px solid var(--color-body);
 
   background: #222;
@@ -199,7 +194,7 @@ table a:hover {
   background: var(--color-background);
   color: var(--color-accent);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 2rem;
 }
 
