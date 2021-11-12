@@ -12,6 +12,7 @@
 html {
   font-size: 62.5%;
   background: url(../images/bg-wavey.svg);
+  font-family: Yuji Mai, Shalimar;
 }
 
 body {
@@ -165,7 +166,7 @@ table a:hover {
 
 .footer a:hover {
   color: var(--color-hover);
-  transform: 0.4s;
+  transition: 0.4s;
 }
 
 .footer img {
@@ -205,6 +206,27 @@ table a:hover {
 .section--title h3 {
   margin: 0.8rem;
 }
+
+h6 {
+  font-size: 2rem;
+  font-family: dongle;
+  color: var(--color-primary);
+  text-align: center;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer h6 a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.footer h6 a:hover {
+  color: var(--color-secondary);
+  transition: 0.4s;
+}
+
 /*Live*/
 
 .live-feed {
