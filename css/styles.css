@@ -25,7 +25,7 @@ body {
   box-sizing: border-box;
 }
 
-/*Navigation*/
+/* Navigation */
 
 .nav {
   width: 100%;
@@ -34,7 +34,8 @@ body {
   background: var(--color-background);
   display: flex;
   justify-content: space-between;
-  font-size: 2rem;
+  font-size: 1rem;
+  top: 0;
 }
 
 .nav img {
@@ -48,7 +49,7 @@ body {
   float: right;
   padding: 1rem;
   position: relative;
-  bottom: 1rem;
+  top: 1rem;
 }
 
 .nav a {
@@ -61,8 +62,53 @@ body {
   transition: 0.4s;
 }
 
-/*Schedule*/
+/* video */
+.video {
+  margin-top: 1rem;
+}
+
+.video h3 {
+  margin-top: 8rem;
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 0.5rem;
+}
+
+/* Schedule */
 
 .schedule {
   width: 100vw;
+}
+
+h3 {
+  text-align: center;
+  padding: 1rem;
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 0.5rem;
+}
+
+/* Roster */
+
+.grid-container {
+  display: flex;
+}
+
+.grids {
+  width: 100%;
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.grids img {
+  padding: 2rem;
+  width: 100%;
+}
+
+.roster {
+  text-align: center;
+  font-size: 2rem;
 }
