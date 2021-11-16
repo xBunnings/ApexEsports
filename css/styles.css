@@ -86,7 +86,7 @@ h3 {
   text-align: center;
   padding: 1rem;
   color: var(--color-primary);
-  background: var(--color-background);
+  background: red;
   border-radius: 0.5rem;
 }
 
