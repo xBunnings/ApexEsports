@@ -16,3 +16,8 @@
     </div>
   </div>
 </div>
+
+
+.grid-container {
+  display: flex;
+}
