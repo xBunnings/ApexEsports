@@ -86,21 +86,23 @@ h3 {
   text-align: center;
   padding: 1rem;
   color: var(--color-primary);
-  background: red;
+  background: var(--color-background);
   border-radius: 0.5rem;
 }
 
 /* Roster */
-
-.grid-container {
-  display: flex;
-}
 
 .grids {
   width: 100%;
   display: flex;
   margin: 1rem;
   flex-wrap: wrap;
+  color: var(--color-primary);
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-primary);
 }
 
 .grids img {
