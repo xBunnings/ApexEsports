@@ -69,11 +69,12 @@ body {
 
 .video h3 {
   margin-top: 8rem;
-  text-align: center;
   padding: 1rem;
   color: var(--color-primary);
   background: var(--color-background);
   border-radius: 0.5rem;
+  border-left: 1px solid red;
+  border-bottom: 2px solid red;
 }
 
 /* Schedule */
@@ -88,6 +89,8 @@ h3 {
   color: var(--color-primary);
   background: var(--color-background);
   border-radius: 0.5rem;
+  border-left: 1px solid red;
+  border-bottom: 2px solid red;
 }
 
 /* Roster */
