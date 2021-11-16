@@ -1,0 +1,11 @@
+<section class="meet"><h3>Meet The Roster</h3></section>
+<div class="roster">
+  <div class="players"><img src="images/bun c.jpg" alt="" />Bunnings</div>
+  <div class="players"><img src="images/carnage c.jpg" alt="" />Carnage</div>
+  <div class="players"><img src="images/noob c.jpg" alt="" />xXnoobXx</div>
+  <div class="players"><img src="images/samid c.jpg" alt="" />samid</div>
+</div>
+
+<div class="videos">
+  <video controls autoplay loop src="videos/montage.mp4"></video>
+</div>
