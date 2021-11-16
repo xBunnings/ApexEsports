@@ -84,7 +84,6 @@ body {
 }
 
 h3 {
-  text-align: center;
   padding: 1rem;
   color: var(--color-primary);
   background: var(--color-background);
