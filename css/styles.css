@@ -116,3 +116,37 @@ h1 {
   text-align: center;
   font-size: 2rem;
 }
+
+
+/* Experimental */
+
+
+
+.result {
+display:flex;
+border-top:1px solid green;
+border-left:1px solid green;
+border-right:1px solid green;
+justify-content: space-between;
+}
+
+.rborder1{
+width:30%;
+background:black;
+color: white;
+}
+
+rborder {
+width:70%;
+background:black;
+color:white;
+}
+
+.result1 {
+border-top:1px solid grey;
+width:100%
+text-align: center;
+border-left:1px solid green;
+border-right: 1px solid green;
+border-bottom:1px solid green;
+}
