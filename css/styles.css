@@ -136,8 +136,6 @@ text-align:right;
 
 rborder {
 width:70%;
-background:black;
-color: white;
 }
 
 .result1 {
@@ -147,7 +145,6 @@ text-align:center;
 border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
-color: white;
 
 }
 
