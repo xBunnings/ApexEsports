@@ -13,7 +13,6 @@
 
 html {
   font-size: 62.5%;
-  background: url(../images/bg-wavey.svg);
   font-family: "Yuji Syuku", serif;
 }
 
@@ -132,6 +131,7 @@ color: white;
 width:30%;
 background:black;
 color: white;
+text-align:right;
 }
 
 rborder {
