@@ -124,7 +124,7 @@ border-top:1px solid green;
 border-left:1px solid green;
 border-right:1px solid green;
 justify-content: space-between;
-border-radius:1rem;
+
 color: white;
 }
 
@@ -148,5 +148,9 @@ border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
 color: white;
-border-radius:1rem;
+
+}
+
+.container {
+margin: 1.5rem;
 }
