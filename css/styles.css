@@ -147,6 +147,8 @@ border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
 background: lightgrey;
+display: flex;
+justify-content: space-between;
 }
 
 .container {
