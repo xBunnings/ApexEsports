@@ -136,7 +136,7 @@ text-align:right;
 
 .rborder {
 width:70%;
-background: grey;
+background: lightgrey;
 }
 
 .result1 {
@@ -146,7 +146,7 @@ text-align:center;
 border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
-background: grey;
+background: lightgrey;
 }
 
 .container {
