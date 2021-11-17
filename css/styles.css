@@ -79,10 +79,6 @@ body {
 
 /* Schedule */
 
-.schedule {
-  width: 100vw;
-}
-
 h3 {
   padding: 1rem;
   color: var(--color-primary);
@@ -129,9 +125,10 @@ border-left:1px solid green;
 border-right:1px solid green;
 justify-content: space-between;
 border-radius:1rem;
+color: white;
 }
 
-.rborder1{
+.rborder1 {
 width:30%;
 background:black;
 color: white;
@@ -140,14 +137,13 @@ color: white;
 rborder {
 width:70%;
 background:black;
-color:white;
+color: white;
 }
 
 .result1 {
 border-top:1px solid grey;
 width:100%;
 text-align:center;
-
 border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
