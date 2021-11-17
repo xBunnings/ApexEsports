@@ -128,6 +128,7 @@ border-top:1px solid green;
 border-left:1px solid green;
 border-right:1px solid green;
 justify-content: space-between;
+border-radius:1rem;
 }
 
 .rborder1{
@@ -144,9 +145,12 @@ color:white;
 
 .result1 {
 border-top:1px solid grey;
-width:100%
-text-align: center;
+width:100%;
+text-align:center;
+
 border-left:1px solid green;
 border-right: 1px solid green;
 border-bottom:1px solid green;
+color: white;
+border-radius:1rem;
 }
