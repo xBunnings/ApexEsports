@@ -1,6 +1,10 @@
-const collapsibles = document.querySelectorAll(".collapsible");
-collapsibles.forEach((item) =>
-  item.addEventListener("click", function () {
-    this.classList.toggle("collapsible--expanded");
-  })
-);
+const menu = document.querySelector('#mobile-menu')
+const menuLinks = document.querySelector('.navbar__menu')
+
+//Display Menu
+const mobileMenu = () => {
+  menu.classList.toggle('.is-active')
+  menuLinks.classList.toggle('active')
+}
+
+menu.addEventListener('click', mobileMenu)
