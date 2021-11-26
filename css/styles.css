@@ -68,6 +68,7 @@ html {
   width: 10rem;
   height: 100%;
   transition: all 0.4s ease;
+  margin: 0;
 }
 
 .navbar__btn {
@@ -133,8 +134,9 @@ html {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 60vh;
+    height: 50vh;
     font-size: 2rem;
+    padding: 0;
   }
 
   #navbar__logo {
@@ -155,9 +157,8 @@ html {
 
   .navbar__links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
-    display: table;
   }
 
   .navbar__btn {
