@@ -421,6 +421,7 @@ iframe {
   height: 50vh;
   margin: 1rem;
   border: 1px solid rgb(132, 0, 255);
+  transition: 0.3s ease-in;
 }
 
 iframe:hover {
