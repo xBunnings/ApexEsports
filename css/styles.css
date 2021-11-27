@@ -431,6 +431,7 @@ html {
 
 .streams {
   background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
   padding: 7rem 0;
 }
 
