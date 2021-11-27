@@ -100,6 +100,11 @@ html {
   color: #fff;
 }
 
+.button:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in;
+}
+
 .navbar__links:hover {
   color: #9518fc;
   transition: all 0.4s ease;
