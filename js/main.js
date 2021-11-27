@@ -38,5 +38,17 @@ const highlightMenu = () => {
   }
 }
 
-window.addEventListener('scroll', highlightMenu)
-window.addEventListener('click', highlightMenu)
+window.addEventListener('scroll', highlightMenu);
+window.addEventListener('click', highlightMenu);
+
+// Hide Mobile menu on click
+
+const hideMobileMenu = () => {
+  const menuBars = document.querySelector('.is-active');
+  if (window.innerWidth <= 500 && menuBars) {
+    menu.classList.toggle('is-active')
+    menuLinks.classList.remove('active')
+  }
+};
+
+menuLinks.addEventListener('click', hideMobileMenu)
