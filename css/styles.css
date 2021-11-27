@@ -192,11 +192,11 @@ html {
 
   #mobile-menu.is-active .bar:nth-child(3) {
     opacity: 0.5;
-    transform: translate(8px) rotate(45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   #mobile-menu.is-active .bar:nth-child(1) {
     opacity: 0.5;
-    transform: translate(-8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
 }
