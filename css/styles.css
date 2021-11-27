@@ -386,6 +386,10 @@ html {
   .squads__content {
     padding: 1rem;
   }
+
+  .squads__header {
+    font-size: 3rem;
+  }
 }
 
 /* Live Streams */
@@ -419,6 +423,11 @@ iframe {
   border: 1px solid rgb(132, 0, 255);
 }
 
+iframe:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+}
+
 @media screen and (max-width: 999px) {
   iframe {
     width: 48vw;
@@ -440,5 +449,9 @@ iframe {
     width: 97vw;
     height: 33vh;
     margin: 0.5rem;
+  }
+
+  .apx__creators {
+    font-size: 3rem;
   }
 }
