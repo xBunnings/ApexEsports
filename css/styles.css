@@ -278,7 +278,7 @@ html {
 
 .squads__header {
   font-size: 5rem;
-  border-bottom: 1px solid rgb(132, 0, 255);
+  /* border-bottom: 1px solid rgb(132, 0, 255); */
 }
 
 .squads__container {
@@ -293,15 +293,38 @@ html {
 }
 
 .squads__content {
-  display: flex;
-  padding: 2rem;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.quad:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease-in;
+  filter: saturate(0);
+  /* width: 100%; */
 }
 
 .quad {
-  padding: 2rem;
-  width: 45vw;
+  transition: 0.3s ease-in;
+}
+
+/* .quad:after {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  filter: saturate(0);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.4s ease-in;
+} */
+
+.quad img {
+  padding: 0.5rem;
+  width: 20vw;
+  height: 50vh;
 }
 
 .quad a {
@@ -312,21 +335,6 @@ html {
 .squads__invite {
   font-size: 3rem;
 }
-
-/* .squads p {
-  color: #fff;
-  /* background: #c9ffbf;
-  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
-  background: linear-gradient(to right, #ffafbd, #c9ffbf);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent; */
-/* } */
-
-/* .squads a {
-  text-decoration: none;
-} */
 
 .main__btn {
   font-size: 2.5rem;
@@ -361,7 +369,7 @@ html {
   height: 100%;
   background: #131313;
   transition: all 0.3s;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 
 /* .main__btn:hover {
@@ -383,13 +391,35 @@ html {
   -moz-text-fill-color: transparent;
 }
 
+@media screen and (max-width: 768px) {
+  .squads__content {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .quad img {
+    padding: 0.5rem;
+    width: 30vw;
+    height: 40vh;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .squads__container {
     font-size: 2rem;
   }
 
   .squads__content {
+    display: grid;
     padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quad img {
+    padding: 0.5rem;
+    width: 45vw;
+    height: 50vh;
   }
 
   .squads__header {
@@ -410,7 +440,7 @@ html {
   margin: 0;
   text-align: center;
   font-size: 5rem;
-  border-bottom: 1px solid rgb(132, 0, 255);
+  /* border-bottom: 1px solid rgb(132, 0, 255); */
   background: #f12711;
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
@@ -430,7 +460,7 @@ iframe {
 }
 
 iframe:hover {
-  transform: scale(1.075);
+  transform: scale(1.03);
   transition: 0.3s ease-in;
 }
 
