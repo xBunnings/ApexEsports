@@ -8,3 +8,35 @@ const mobileMenu = () => {
 }
 
 menu.addEventListener('click', mobileMenu)
+
+// Show active
+
+const highlightMenu = () => {
+  const element = document.querySelector('.highlight')
+  const aboutMenu = document.querySelector('#about-page')
+  const squadMenu = document.querySelector('#squads-page')
+  const liveMenu = document.querySelector('#live-page')
+  let scrollPos = window.scrollY
+
+  // adds highlight class to my menu items
+  if(window.innerWidth>500 && scrollPos <400) {
+    aboutMenu.classList.add('highlight')
+    squadMenu.classList.remove('highlight')
+    return
+  } else if (window.innerWidth>500 && scrollPos <600) {
+    squadMenu.classList.add('highlight')
+    aboutMenu.classList.remove('highlight')
+    liveMenu.classList.remove('highlight')
+    return
+  }else if (window.innerWidth>500 && scrollPos <2345) {
+    squadMenu.classList.remove('highlight')
+    liveMenu.classList.add('highlight')
+    return
+  }
+  if((element && window.innerWidth < 500 && scrollPos < 600) || element) {
+    element.classList.remove('highlight')
+  }
+}
+
+window.addEventListener('scroll', highlightMenu)
+window.addEventListener('click', highlightMenu)
