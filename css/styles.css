@@ -241,10 +241,9 @@ html {
 .about__description {
   font-size: 3rem;
   padding: 5rem;
-  background: #1a2a6c;
-  background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
-  background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);
-
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+  background: linear-gradient(to right, #8f0eff, #da22ff);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -263,6 +262,7 @@ html {
 
   .about__description {
     font-size: 2rem;
+    padding: 2rem;
   }
 }
 
@@ -419,7 +419,7 @@ html {
   .quad img {
     padding: 0.5rem;
     width: 45vw;
-    height: 50vh;
+    height: 40vh;
   }
 
   .squads__header {
@@ -492,3 +492,5 @@ iframe:hover {
     font-size: 3rem;
   }
 }
+
+/* Events And Achievements */
