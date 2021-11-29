@@ -1,0 +1,90 @@
+    <!-- Live Streams -->
+    <div class="streams" id="live">
+      <h1 class="apx__creators">Content Creators</h1>
+      <div class="stream__content">
+        <div class="live">
+          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+          <div id="<player div ID>"></div>
+          <script type="text/javascript">
+            var options = {
+              channel: "itsbunnings",
+              video: "<video ID>",
+              collection: "<collection ID>",
+              // only needed if your site is also embedded on embed.example.com and othersite.example.com
+              parent: ["embed.example.com", "othersite.example.com"],
+            };
+            var player = new Twitch.Player("<player div ID>", options);
+            player.setVolume(0.5);
+          </script>
+          <div class="live">
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div id="<player div ID>"></div>
+            <script type="text/javascript">
+              var options = {
+                height: 100,
+                width: 100,
+                channel: "thenameiscarnage",
+                video: "<video ID>",
+                collection: "<collection ID>",
+                // only needed if your site is also embedded on embed.example.com and othersite.example.com
+                parent: ["embed.example.com", "othersite.example.com"],
+              };
+              var player = new Twitch.Player("<player div ID>", options);
+              player.setVolume(0.5);
+            </script>
+          </div>
+        </div>
+
+        <div class="live">
+          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+          <div id="<player div ID>"></div>
+          <script type="text/javascript">
+            var options = {
+              height: 100,
+              width: 100,
+              channel: "xXnoobXx4906",
+              video: "<video ID>",
+              collection: "<collection ID>",
+              // only needed if your site is also embedded on embed.example.com and othersite.example.com
+              parent: ["embed.example.com", "othersite.example.com"],
+            };
+            var player = new Twitch.Player("<player div ID>", options);
+            player.setVolume(0.5);
+          </script>
+        </div>
+
+        <div class="live">
+          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+          <div id="<player div ID>"></div>
+          <script type="text/javascript">
+            var options = {
+              height: 100,
+              width: 100,
+              channel: "samid_ibrahim19",
+              video: "<video ID>",
+              collection: "<collection ID>",
+              // only needed if your site is also embedded on embed.example.com and othersite.example.com
+              parent: ["embed.example.com", "othersite.example.com"],
+            };
+            var player = new Twitch.Player("<player div ID>", options);
+            player.setVolume(0.5);
+          </script>
+        </div>
+
+        <!-- <div class="live">
+          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+          <div id="<player div ID>"></div>
+          <script type="text/javascript">
+            var options = {
+              channel: "itsbunnings",
+              video: "<video ID>",
+              collection: "<collection ID>",
+              // only needed if your site is also embedded on embed.example.com and othersite.example.com
+              parent: ["embed.example.com", "othersite.example.com"],
+            };
+            var player = new Twitch.Player("<player div ID>", options);
+            player.setVolume(0.5);
+          </script>
+        </div> -->
+      </div>
+    </div>

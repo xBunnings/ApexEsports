@@ -12,6 +12,23 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Animation */
+
+.animation {
+  animation: fadeandscale 2s ease-in;
+}
+
+@keyframes fadeandscale {
+  from {
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 /*Nav Bar*/
 .navbar {
   background: #131313;
@@ -225,9 +242,10 @@ html {
 .about__heading {
   font-size: 5rem;
   color: #fff;
+  cursor: pointer;
 }
 
-.about__heading span {
+.about__heading {
   background: #f12711;
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
@@ -248,6 +266,8 @@ html {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  word-spacing: 0.3rem;
+  line-height: 1.5;
 }
 
 .highlight {
@@ -278,10 +298,6 @@ html {
 
 .squads__header {
   font-size: 5rem;
-  /* border-bottom: 1px solid rgb(132, 0, 255); */
-}
-
-.squads__container {
   text-align: center;
   background: #c9ffbf;
   background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
@@ -290,12 +306,13 @@ html {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(132, 0, 255);
 }
 
 .squads__content {
   display: grid;
   padding: 1rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .quad:hover {
@@ -323,8 +340,8 @@ html {
 
 .quad img {
   padding: 0.5rem;
-  width: 20vw;
-  height: 50vh;
+  width: 15vw;
+  height: 40vh;
 }
 
 .quad a {
@@ -427,9 +444,9 @@ html {
   }
 }
 
-/* Live Streams */
+/*Live Streams*/
 
-.streams {
+/* .streams {
   background: #000000;
   background: linear-gradient(to left, #161616, #000000);
   padding: 7rem 0;
@@ -441,7 +458,7 @@ html {
   margin: 0;
   text-align: center;
   font-size: 5rem;
-  /* border-bottom: 1px solid rgb(132, 0, 255); */
+  border-bottom: 1px solid rgb(132, 0, 255); 
   background: #f12711;
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
@@ -491,6 +508,52 @@ iframe:hover {
   .apx__creators {
     font-size: 3rem;
   }
+}  */
+/* Live Streams Rebuilt */
+
+.live {
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #131313;
+  flex-direction: column;
 }
 
+.live h1 {
+  padding-top: 3rem;
+  margin-top: 0;
+  text-align: center;
+  font-size: 5rem;
+  background: #c9ffbf;
+  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
+  background: linear-gradient(to right, #ffafbd, #c9ffbf);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(132, 0, 255);
+}
+
+.live__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
+  background: linear-gradient(to right, #8f0eff, #da22ff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+iframe {
+  margin: 2rem;
+  height: 40vh;
+  width: 30vw;
+}
 /* Events And Achievements */
