@@ -556,4 +556,18 @@ iframe {
   height: 40vh;
   width: 30vw;
 }
+
+@media screen and (max-width: 500px) {
+  .live__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+  }
+
+  iframe {
+    height: 35vh;
+    width: 45vw;
+    margin: 1rem;
+  }
+}
 /* Events And Achievements */
