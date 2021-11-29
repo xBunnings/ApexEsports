@@ -444,71 +444,6 @@ html {
   }
 }
 
-/*Live Streams*/
-
-/* .streams {
-  background: #000000;
-  background: linear-gradient(to left, #161616, #000000);
-  padding: 7rem 0;
-}
-
-.apx__creators {
-  background: #131313;
-  color: #fff;
-  margin: 0;
-  text-align: center;
-  font-size: 5rem;
-  border-bottom: 1px solid rgb(132, 0, 255); 
-  background: #f12711;
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-  background: linear-gradient(to right, #f5af19, #f12711);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-iframe {
-  width: 48vw;
-  height: 50vh;
-  margin: 1rem;
-  border: 1px solid rgb(132, 0, 255);
-  transition: 0.3s ease-in;
-}
-
-iframe:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease-in;
-}
-
-@media screen and (max-width: 999px) {
-  iframe {
-    width: 48vw;
-    height: 33vh;
-    margin: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 698px) {
-  iframe {
-    width: 47vw;
-    height: 30vh;
-    margin: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 468px) {
-  iframe {
-    width: 97vw;
-    height: 33vh;
-    margin: 0.5rem;
-  }
-
-  .apx__creators {
-    font-size: 3rem;
-  }
-}  */
 /* Live Streams Rebuilt */
 
 .live {
@@ -559,15 +494,20 @@ iframe {
 
 @media screen and (max-width: 500px) {
   .live__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     font-size: 2rem;
   }
 
   iframe {
     height: 35vh;
-    width: 45vw;
+    width: 95vw;
     margin: 1rem;
+    border: 1px solid rgb(132, 0, 255);
+  }
+
+  .live h1 {
+    font-size: 3rem;
   }
 }
 /* Events And Achievements */
