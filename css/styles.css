@@ -497,6 +497,18 @@ iframe {
   width: 30vw;
 }
 
+@media screen and (max-width: 768px) {
+  .live__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  iframe {
+    height: 35vh;
+    width: 43vw;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .live__content {
     display: flex;
