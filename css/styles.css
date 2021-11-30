@@ -7,11 +7,11 @@ html {
   background: url(../img/APxBT\ website\ SVG.svg);
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   html {
     background: url(../img/bg-mobile.svg);
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -160,7 +160,8 @@ html {
 
   .navbar__menu.active {
     background: url(../img/bg-mobile.svg);
-    background-size: contain;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
