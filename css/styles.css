@@ -159,9 +159,9 @@ html {
   }
 
   .navbar__menu.active {
-    background: url(../img/bg-mobile.svg);
+    /* background: url(../img/bg-mobile.svg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
