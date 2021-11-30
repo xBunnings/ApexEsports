@@ -160,7 +160,7 @@ html {
 
   .navbar__menu.active {
     background: url(../img/bg-mobile.svg);
-    /* background-size: contain; */
+    background-size: cover;
     background-repeat: no-repeat;
     top: 100%;
     opacity: 1;
