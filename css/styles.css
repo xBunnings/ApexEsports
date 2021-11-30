@@ -4,6 +4,13 @@ html {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
+  background: url(../img/APxBT\ website\ SVG.svg);
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    background: url(../img/bg-mobile.svg);
+  }
 }
 
 * {
@@ -152,7 +159,8 @@ html {
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: url(../img/bg-mobile.svg);
+    background-size: contain;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -226,8 +234,6 @@ html {
 
 /* About Section */
 .about {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
   padding: 5rem 0;
 }
 
@@ -292,7 +298,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #131313;
   flex-direction: column;
 }
 
@@ -447,12 +452,10 @@ html {
 /* Live Streams Rebuilt */
 
 .live {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #131313;
+  /* background: #131313; */
   flex-direction: column;
 }
 
