@@ -348,6 +348,7 @@ html {
   padding: 0.5rem;
   width: 15vw;
   height: 40vh;
+  border-radius: 1rem;
 }
 
 .quad a {
